@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+           body
+           {
+             background-image: url("photo.AVIF"); 
+             background-size: 100%;
+             height: 554px;
+             display: flex;
+             flex-direction: column;
+             justify-content:center;
+             align-items: center;
+           }
+           .main
+           {
+            backdrop-filter: blur(2px);
+            background-color: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.5);
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgb(0,0,0,0.3);
+            width: 250px;
+            height:350px;
+            display: flex;
+            flex-direction: column;
+             justify-content:center;
+             align-items: center;
+           }
+           #one,#two,#three{color: white;}
+           #f,#e,#p,#cp
+           {
+            background-color: white;
+            width: 200px;
+            border: 1px solid rgba(255,255,255,0.5);
+            border-radius: 5px;
+           }
+           #four
+           {
+            background-color: white;
+            border: 1px solid rgba(255,255,255,0.5);
+            border-radius: 15px;
+            width: 175px;
+            padding:2px 5px;
+           }
+             
+        </style>
+    </head>
+    <body>
+            
+           <form class="main" action="">
+
+            <div>
+                <h2 id="one">Sign Up</h2>
+            </div>
+            <div> 
+                <label for="f" id="two">Full Name</label>
+                <br>
+                <input type="number" id="f" name="height" placeholder="Enter your full name">
+            </div>
+                <br>
+            <div>
+                    <label for="e" id="three">Email</label>
+                <br>
+                <input type="number" id="e" name="weight" placeholder="Enter your Email">
+            </div>
+                <br>
+                <div>
+                    <label for="o" id="three">password</label>
+                <br>
+                <input type="number" id="p" name="weight" placeholder="create a password">
+            </div>
+                <br>
+                <div>
+                    <label for="cp" id="three">Confirm password</label>
+                <br>
+                <input type="number" id="cp" name="weight" placeholder="confirm your password">
+            </div>
+                <br>
+            <div><input id="four" type="submit" value="Register"></div>
+            
+           </form>
+           
+    </body>
+</html>
