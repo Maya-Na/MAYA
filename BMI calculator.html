@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+           body
+           {
+             background-image: url("pink.jpg"); 
+             background-size: cover;
+             height: 554px;
+             display: flex;
+             flex-direction: column;
+             justify-content:center;
+             align-items: center;
+           }
+           .main
+           {
+            backdrop-filter: blur(2px);
+            background-color: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.5);
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgb(0,0,0,0.3);
+            width: 250px;
+            height:350px;
+            display: flex;
+            flex-direction: column;
+             justify-content:center;
+             align-items: center;
+           }
+           #one,#two,#three{color: rgb(238, 65, 94);}
+           #h,#w
+           {
+            backdrop-filter: blur(5px);
+            background-color: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.5);
+            border-radius: 15px;
+           }
+           #four
+           {
+            background-color: white;
+            border: 1px solid rgba(255,255,255,0.5);
+            border-radius: 15px;
+            width: 175px;
+            padding:2px 5px;
+           }
+             
+        </style>
+    </head>
+    <body>
+            
+           <form class="main" action="">
+
+            <div>
+                <h1 id="one">BMI calculator</h1>
+            </div>
+            <div> 
+                <label for="h" id="two">height(cm):</label>
+                <br>
+                <input type="number" id="h" name="height" >
+            </div>
+                <br>
+            <div>
+                    <label for="w" id="three">weight(kg):</label>
+                <br>
+                <input type="number" id="w" name="weight">
+            </div>
+                <br>
+            <div><input id="four" type="submit" value="calculate"></div>
+            
+           </form>
+           
+    </body>
+</html>
