@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook Login</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.one {
+  margin-right: 50px;
+}
+
+.facebook{
+  font-size: 56px;
+  color: #1877f2;
+}
+
+.line {
+  font-size: 24px;
+  width: 360px;
+}
+
+.two {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 360px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  padding: 14px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.btn {
+  padding: 14px;
+  background-color: #1877f2;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.forgot {
+  text-align: center;
+  color: #1877f2;
+  text-decoration: none;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+hr {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.create-btn {
+  padding: 14px;
+  background-color: #42b72a;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.create-page {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.create-page a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="one">
+      <h1 class="facebook">facebook</h1>
+      <p class="line">Connect with friends and the world around you on Facebook.</p>
+    </div>
+    <div class="two">
+      <form class="form">
+        <input type="text" placeholder="Email or phone number" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit" class="btn">Log In</button>
+        <a href="..." class="forgot">Forgot password?</a>
+        <hr />
+        <button type="button" class="create-btn">Create new account</button>
+      </form>
+      <p class="create-page"> <a href="...">Create a Page</a> for a celebrity, brand or business.</p>
+    </div>
+  </div>
+  
+</body>
+</html>
